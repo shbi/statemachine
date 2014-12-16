@@ -23,6 +23,6 @@ public class BlankState implements State {
 
     @Override
     public State getNextState() {
-        return thise;
+        return this;
     }
 }
